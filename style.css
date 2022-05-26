@@ -1,0 +1,284 @@
+/*---------------MAIN---------------*/
+/*---------------HOME---------------*/
+
+
+/*---------------ABOUT---------------*/
+
+
+/*---------------MEET OUR TEAM---------------*/
+
+.meet {
+    font-size: 45px;
+    text-align: center;
+    color: #19345E;
+}
+
+.girl-center {
+    text-align: center;
+    top: 1806px;
+    left: 512px;
+    width: 225px;
+    height: 265px;
+}
+
+/*---------------Latest Blog---------------*/
+
+.latestblog {
+    font-size: 45px;
+    text-align: center;
+    color: #19345E;
+}
+
+
+.Larry-stark {
+    margin-left: -20px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    color: #707070;
+}
+
+.blog-date {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    color: #707070;
+}
+
+.readmore {
+    margin-left: 212px;
+    color: #F47522;
+    margin-top: -15px;
+}
+
+.readmore2 {
+    color: #19345E;
+    margin-left: 212px;
+    margin-top: -15px;
+}
+
+.post-title {
+    font-size: 14px;
+    color: #19345E;
+    width: 275px;
+    height: 97px;
+    top: 2740px;
+    left: 160px;
+    margin-top: -15px;
+    margin-bottom: 0px;
+}
+
+.post-img {
+    top: 2403px;
+    left: 160px;
+    width: 285px;
+    height: 206px;
+    margin-top: 60px;
+}
+
+.create {
+    padding-top: 32px;
+    color: #19345E;
+}
+
+
+/*---------------ABOUT TEAM---------------*/
+
+
+
+
+
+/*---------------BLOG---------------*/
+
+.blog {
+    text-align: center;
+    color: #19345E;
+    margin-top: 100px;
+}
+
+.blog-img {
+    width: 100%;
+    height: 421%;
+    margin-top: 60px;
+}
+
+.sentence {
+    color: #19345E;
+    font-size: 15px;
+    margin-top: 5%;
+}
+
+.larry-stark {
+    color: #19345E;
+    font-size: 15px;
+    margin-top: 4%;
+}
+
+.freelencer {
+    color: #19345E;
+    margin-top: 4%;
+    font-size: 50px;
+}
+
+/*---------------CONTACT---------------*/
+
+.contact {
+    text-align: center;
+    color: #19345E;
+    margin-top: 100px;
+}
+
+.phone {
+    display: -webkit-box;
+}
+
+.phone-img {
+    width: auto;
+    height: 15px;
+    margin-right: 10px;
+    margin-left: 17px;
+}
+
+.email {
+    display: -webkit-box;
+}
+
+.email-img {
+    width: auto;
+    height: 15px;
+    margin-right: 10px;
+    margin-left: 17px;
+}
+
+.website {
+    display: -webkit-box;
+}
+
+.website-img {
+    width: auto;
+    height: 15px;
+    margin-right: 10px;
+    margin-left: 17px;
+}
+
+.social-icon {
+    width: auto;
+    height: 25px;
+    margin-left: 17px;
+    margin-right: -13px;
+}
+
+.title-icon {
+    margin-top: 15px;
+}
+
+.mobilephone {
+    margin-top: 60px;
+}
+
+.paragraph {
+    margin-top: 60px;
+    margin-left: -145px;
+}
+
+.form {
+    margin-left: -245px;
+}
+
+.col-12 {
+margin-right: -100px;
+padding-right: -100px;
+}
+
+#inputAddress {
+    border-color: #F47522;
+    size: 1px;
+}
+
+span {
+    color: #FF0303;
+    opacity: 100%;
+}
+
+#inputMessage {
+    height: 180px;
+}
+
+.send {
+    display: inline-block;  
+    background-color:#F47522;
+    color: #FFFFFF;
+    border-color: #F47522;
+    margin-top: 30px;
+    padding-left: 30px;
+    border-radius: 50px;
+    padding-right: 30px;
+    width: auto;
+    height: 40px;
+    box-shadow: 0px 3px 6px #00000029;
+    margin-bottom: 100px;
+}
+
+.send-img {
+    background-color:#F47522;
+    width: auto;
+    height: 20px;
+    margin-right: 5px;    
+}
+
+/*---------------Footer---------------*/
+footer {
+    background: #19345E;  
+    font-style: muli;
+    font-size: 14px;  
+    display: block;  
+    width: auto;
+    height: 141px;
+}
+
+.icon-footer {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    padding-right: -2px;
+    text-align: left;
+    margin-right: 10px;    
+}
+
+.text-footer {
+    color: #FFFFFF;
+    padding-top: 35px;
+    padding-right: 55px;
+}
+
+.logo-footer {
+    width: 100px;
+    margin-top: 41px;
+    margin-left: 37px;
+    top: 3053px;
+    height: 50px;
+}
+
+.icon {
+    text-align: center;
+}
+
+.copy {
+    text-align: right;
+    width: auto;
+    margin-right: 18px;
+    margin-top: 60px;
+    height: 40px;
+    color: #FFFFFF;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.teks-footer {
+    margin-top: 42px;
+    padding-left: 95px;
+    padding-top: 35px;
+}
+
