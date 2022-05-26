@@ -1,0 +1,40 @@
+/* navigasi */
+.navbar .navbar-nav .nav-link:hover {
+  background-color: yellow;
+  color: #fff;
+}
+
+nav .btn {
+  width: 100px;
+  height: 35px;
+  border: solid #f47522 1px;
+  background-color: #f47522;
+  color: #fff;
+}
+/* end navigasi */
+
+/* Start jumbotron */
+.jumbotron {
+  padding: 11rem 5rem;
+  background-color: #edf6ff;
+}
+
+.tulisan {
+  color: #053260;
+  margin-left: 35rem;
+}
+
+.tulisan button {
+  font-size: 14px;
+  width: 200px;
+  height: 35px;
+  background-color: #f47522;
+}
+/* end jumbotron */
+
+/* footer home */
+.row {
+  border: solid #f47522 3px;
+  width: 500px;
+  height: 35px;
+}
