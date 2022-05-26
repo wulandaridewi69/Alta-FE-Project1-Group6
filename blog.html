@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -34,26 +35,30 @@
 
     <body>
 
-        <header>
+        <header class="nav">
             <div class="container">
                 <div class="row">
-                    <div class="col-2">
-                        <img class="logo" src="./../assets/images/logo-ALTA@2x.png">
+                    <div class="col-6 logo-bar">
+                        <img class="logo-bar" src="./assets/images/logo-ALTA@2x.png">
                     </div>
-                    <div class="col-2" id="home">
-                        <p>Home</p>
-                    </div>
-                    <div class="col-2" id="about">
-                        <p>About</p>
-                    </div>
-                    <div class="col-2" id="team">
-                        <p>Team</p>
-                    </div>
-                    <div class="col-2" id="blog">
-                        <p>Blog</p>
-                    </div>
-                    <div class="col-2" id="contact">
-                        <p>Contact</p>
+                    <div class="col-6">
+                        <div class="menu-bar">
+                            <div class="menu-program">
+                                <p>Program</p>
+                            </div>
+                            <div class="menu-blended">
+                                <p>Blended Learning</p>
+                            </div>
+                            <div class="menu-learning">
+                                <p>Tech Talent Solutions</p>
+                            </div>
+                            <div class="menu-webinar">
+                                <p>Webinar & Community Events</p>
+                            </div>
+                            <div class="menu-blog">
+                                <p>Blog</p>
+                            </div>           
+                        </div>
                     </div>
                 </div>
 
@@ -61,71 +66,150 @@
         </header>
 
         <main>
-            <div>
-                <div>
-                    <h1 class="blog"><b>- Blog -</b></h1>
-                </div>
-                <div>
-                    <img class="blog-img" src="./../assets/images/img_blog.jpg">
-                </div>
-                <div class="container">
-                    <div class="freelencer">
-                        <h2 ><b>HOW TO BE A SUCCESSFUL <br/> FREELANCER</b></h2>                 
-                    </div>
-                    <div class="larry-stark">
-                        <h3><b>Larry Stark - 7 januari 2020</b></h3>
-                    </div>
-                    <div class="sentence">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna<br/>
-                            aliqua. Ut enim ad minim veniam, quis nostrud excercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br/>
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat<br/>
-                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna<br/>
-                            aliqua. Ut enim ad minim veniam, quis nostrud excercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br/>
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat<br/>
-                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna<br/>
-                            aliqua. Ut enim ad minim veniam, quis nostrud excercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br/>
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat<br/>
-                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna<br/>
-                            aliqua. Ut enim ad minim veniam, quis nostrud excercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br/>
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat<br/>
-                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut laboreet dolore magna<br/>
-                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br/>
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
-                    </div>
-
-                </div>
-            </div>
-
-        </main>
-
-        <footer>
 
             <div class="container">
-                <div class="row">
-                    <div class="col-md-4 order-first">
-                        <img class="logo-footer" src="./../assets/images/logo-ALTA-v2@2x.png" />
-                    </div>
-                    <div class="col-4 icon">
-                        <p class="text-footer">Social Media</p>
-                        <div class="icon">
-                            <img class="icon-footer" src="./../assets/images/ic_fb.png" />
-                            <img class="icon-footer" src="./../assets/images/ic_twitter.png" />
-                            <img class="icon-footer" src="./../assets/images/ic_ig.png" />
-                            <img class="icon-footer" src="./../assets/images/ic_linkedin.png" />
+                <div class="row thumbnail">
+                    <div class="col-4 ">
+                        <img class="event-img"src="https://academy.alterra.id/wp-content/uploads/2021/12/ICP-SLDC-05-300x300.png">
+                        <div>
+                            <div class="button-event"><b>WORKSHOP</b></div>
+                            <h4 class="title-event"><b>Beginner's Guide to SDLC</b></h4>
+                            <p class="text-event">Ingin jadi QA Engineer? Artinya kamu wajib<br/> belajar SDLC! 💡 SDLC penting bagi <br/> pengembangan perangkat lunak. Dengan  <bt/> Software Development Life-Cycle (SDLC),<br/> kualitas software bisa lebih</p>
+                            <p class="deteil-read">READ MORE>></p>
+                            <p class="dates">December 2, 2021</p>
                         </div>
                     </div>
-                    <div class="col-4 order-last">
-                        <p class="copy">Copyright &#169; 2019 Alterra</p>
+                    <div class="col-4">
+                        <img class="event-img second"src="https://academy.alterra.id/wp-content/uploads/2021/11/Rest-API-with-GO-04-300x300.png">
+                        <div>
+                            <div class="button-event"><b>WORKSHOP</b></div>
+                            <h4 class="title-event"><b>Rest API With GO</b></h4>
+                            <p class="text-event">Mau makin jago menguasai backend?<br/> Artinya, kamu wajib ikutan kelas REST API <br/>with GO! 💡 Di kelas ini, kamu akan belajar <br/>membangun REST API sebagai</p>
+                            <p class="deteil-read">READ MORE>></p>
+                            <p class="dates">November 18, 2021</p>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <img class="event-img third "src="https://academy.alterra.id/wp-content/uploads/2021/11/DATA-300x300.jpg">
+                        <div>
+                            <div class="button-event"><b>EVENT</b></div>
+                            <h4 class="title-event"><b>All About Data</b></h4>
+                            <p class="text-event">Tahu nggak sih? Data Engineer, Analyst, dan <br/>Scientist adalah 3 dari 10 pekerjaan paling <br/>menjanjikan di tahun 2022! Fakta di atas <br/>ditemukan dari survey LinkedIn</p>
+                            <p class="deteil-read">READ MORE>></p>
+                            <p class="dates">November 5, 2021</p>
+                        </div>
                     </div>
                 </div>
             </div>
 
+            <div class="container">
+                <div class="row thumbnail">
+                    <div class="col-4 ">
+                        <img class="event-img"src="https://academy.alterra.id/wp-content/uploads/2021/10/Microservices-101-300x300.jpg">
+                        <div>
+                            <div class="button-event"><b>WORKSHOP</b></div>
+                            <h4 class="title-event"><b>Beginner's Guide to SDLC</b></h4>
+                            <p class="text-event">Ingin jadi QA Engineer? Artinya kamu wajib<br/> belajar SDLC! 💡 SDLC penting bagi <br/> pengembangan perangkat lunak. Dengan  <bt/> Software Development Life-Cycle (SDLC),<br/> kualitas software bisa lebih</p>
+                            <p class="deteil-read">READ MORE>></p>
+                            <p class="dates">December 2, 2021</p>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <img class="event-img second"src="https://academy.alterra.id/wp-content/uploads/2021/10/intro-to-react-300x300.jpg">
+                        <div>
+                            <div class="button-event"><b>WORKSHOP</b></div>
+                            <h4 class="title-event"><b>Rest API With GO</b></h4>
+                            <p class="text-event">Mau makin jago menguasai backend?<br/> Artinya, kamu wajib ikutan kelas REST API <br/>with GO! 💡 Di kelas ini, kamu akan belajar <br/>membangun REST API sebagai</p>
+                            <p class="deteil-read">READ MORE>></p>
+                            <p class="dates">November 18, 2021</p>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <img class="event-img third "src="https://academy.alterra.id/wp-content/uploads/2021/09/Backend-101-Poster-300x300.jpg">
+                        <div>
+                            <div class="button-event"><b>EVENT</b></div>
+                            <h4 class="title-event"><b>All About Data</b></h4>
+                            <p class="text-event">Tahu nggak sih? Data Engineer, Analyst, dan <br/>Scientist adalah 3 dari 10 pekerjaan paling <br/>menjanjikan di tahun 2022! Fakta di atas <br/>ditemukan dari survey LinkedIn</p>
+                            <p class="deteil-read">READ MORE>></p>
+                            <p class="dates">November 5, 2021</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+            <nav>
+                <span><< Previous</span>
+                <span>1</span>          
+                </span>
+                <a class="page-numbers" href="https://academy.alterra.id/event-workshops/2/">
+                    <span>2</span>                    
+                </a>
+                <a class="page-numbers" href="https://academy.alterra.id/event-workshops/3/">
+                    <span>3</span>
+                </a>
+                <a class="page-numbers" href="https://academy.alterra.id/event-workshops/4/">
+                    <span>4</span>
+                </a>
+                <a class="page-numbers" href="https://academy.alterra.id/event-workshops/5/">
+                    <span>5</span>
+                </a>
+                <a class="page-number" href="https://academy.alterra.id/event-workshops/2/">Next >></a>
+
+            </nav>
+        </main>
+
+        <footer class="footer-blog">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-6">
+                        <img>
+                        <div>
+                            <p>Kebijakan Privasi</p>
+                            <p>FAQ</p>
+                        </div>
+                        <p>&#169; 2022 Alterra. All rights reserved</p>
+                    </div>
+
+                    <div class="col-6">
+                        <div class="container">
+                            <div class="row">
+
+                                <div class="col-3">
+                                    <h4>Program Alterra Academy</h4>
+                                    <p>Immersive Program</p>
+                                    <p>Alta.id | Blended Learning Program</p>
+                                    <h4>Media Sosial</h4>
+                                </div>
+
+                                <div class="col-3">
+                                    <h4>Kontak & Alamat</h4>
+                                    <div>
+                                        <img src="https://academy.alterra.id/wp-content/themes/alta-website-v4/assets/image/mail.svg">
+                                        <h5>hiALTA@alterra.id</h5>
+                                    </div>
+                                    <div>
+                                        <img src="https://academy.alterra.id/wp-content/themes/alta-website-v4/assets/image/map.svg">
+                                        <h5>Jalan Raya Tidar, Nomor 23<br/>
+                                        Karangbesuki, Kota Malang,<br/>
+                                        Jawa Timur. 65146.</h5>
+                                    </div>
+                                    <div>
+                                        <img>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
         </footer>
 
 
+
+
     </body>
+</html>
