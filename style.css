@@ -17,6 +17,10 @@ nav .btn {
   background-color: #f47522;
   color: #fff;
 }
+
+.blog-link-contact {
+    text-decoration: none;
+}
 /* end navigasi */
 
 /* Start jumbotron */
@@ -27,7 +31,10 @@ nav .btn {
 
 .tulisan {
   color: #053260;
-  margin-left: 35rem;
+}
+
+.tulisan h1 {
+    margin-left: 0%;
 }
 
 .tulisan button {
@@ -39,7 +46,8 @@ nav .btn {
 
 .photo-circle {
     height: auto;
-    width: 30%;
+    width: 90%;
+    margin-top: -15%;
 }
 /* end jumbotron */
 
