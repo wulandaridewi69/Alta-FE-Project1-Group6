@@ -1,0 +1,742 @@
+.container{
+  background-color: #fff;
+  position: relative;
+  margin: auto;
+}
+.batik{
+  width: 199.5px;
+  position: absolute;
+  margin-top: 1500px;
+}
+/* akhir dari body besar */
+
+/* Header Section */
+
+.header{
+  width: 1233px;
+  height: 91px;
+  background-color: #fff;
+  position: fixed;
+}
+
+.shadow {
+  color: rgb(0, 0, 0);
+  width: 1200px;
+  height: 30px;
+  box-shadow: 15px 50px 25px 5px rgba(0, 0, 0, 0.7);
+  position: fixed;
+  z-index: 2;
+}
+
+.container .main-logo{
+  width: 112px;
+  left: 157.2281879px;
+  top: 18.61912752px;
+  position: relative;
+}
+
+
+.contact{
+  width: 87.2214765101px;
+  height: 24.2281879195px;
+  border: #f47522 solid 1px;
+  text-align: center;
+  border-radius: 25px;
+  color: #f47522;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  text-decoration: none;
+  padding-top: -8px;
+  padding-bottom: 8px;
+  z-index: 999;
+  
+}
+
+.header ul li {
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.sidemenu {
+  text-decoration: none;
+  margin: 2.42282879195px 157px 2.42282879195px 1.69597315436px ;
+  float: right;
+}
+
+.list {
+  text-decoration: none;
+  font: 12.5px arial;
+  font-weight: bold;
+  color: #19345e;
+  margin-left: 25px;
+}
+
+.list.contact{
+  color: #f47522;
+  padding-top: 13.5px;
+  padding-left: 33px;
+  padding-right: 33px;
+  border: 1px solid#f47522;
+  margin-left: 49.65px;
+}
+
+.header a:hover{
+  color: #f47522;
+}
+
+
+/* Hero-1-section-kiri */
+
+.hero-section{
+  height: 745px;
+  width: 1233px;
+  background-image: url(img/bg-img.png);
+  background-size: cover;
+  position: relative;
+  box-sizing: border-box;
+  background-color: #edf6ff;;
+}
+
+.foto-orang{
+  width: 422.033557px;
+  height: auto;
+  border-radius: 50%;
+  margin-left: 161.3657718px;
+  margin-top: 161.3657718px;
+}
+
+.sisikiri{
+  width: 488px;
+  height: 745px;
+  float: left;
+}
+
+/* Hero-1-section-kanan */
+
+.sisikanan{
+  width: 620px;
+  height: 745px;
+  float: right;
+}
+
+.sisikanan span{
+  color: #f47522;
+}
+
+.sidetext{
+  position:
+  float:right;
+  bottom: 370px;
+  right: -215px;
+}
+
+.hi{
+  font-size: 20.5px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #19345e;
+  margin-top: 223.5px;
+}
+.baris2{
+  font-size: 33px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #19345e;
+  margin-top: 7px;
+}
+.baris3{
+  font-size: 33px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f47522;
+  margin-top: -16.7px;
+}
+
+.paragraf1, .paragraf2, .paragraf3{
+  font-size: 12.5px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #19345e;
+}
+
+p.paragraf1{
+  margin-top: 20.5px;
+}
+p.paragraf2, p.paragraf3,{
+  margin-top: 12.5px;
+}
+
+.button{
+  width: 227.5px;
+  height: 41.5px;
+  background-color: #f47522;
+  border-radius: 25px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12.5px;
+  text-decoration: none;
+  font: 12.5px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.jabat{
+  width: 62px;
+}
+.jabat-tangan{
+  height: 20.5px;
+  float: right;
+  margin-top: 10px;
+}
+
+.tombol{
+  width: 165.5px;
+  float: right;
+}
+.list-button{
+  color: #fff;
+  float: left;
+  margin-top: -16px;
+  margin-left: 15px;
+
+}
+
+/* Footer HERO 1 */
+
+.footerhero1{
+  height: 185px;
+  width: 1233px;
+  background-color: #fff;
+  float: left;
+}
+
+.lingkar{
+  height: 107.5px;
+  width: 811px;
+  background-color: #fff;
+  border-radius: 100px;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.lingkar-kiri{
+  height: 42px;
+  width: 267px;
+  border-right: 1px #dbdbdb solid;
+  float: left;
+  line-height: 42px;
+  float: left;
+  margin-top: 30px;
+}
+.tulisan.bottom1{
+  font: 12.4px arial;
+  font-weight: bold;
+  float: right;
+  margin-right: 50px;
+  font: #213b64;
+}
+.tulisan.bottom2{
+  font: 12.4px arial;
+  float: right;
+  margin-right: 57px;
+  font: #213b64;
+  margin-top: -28.5px;
+}
+.tulisan.bottom21{
+  font: 12.4px arial;
+  font-weight: bold;
+  float: right;
+  margin-right: 51px;
+  font: #213b64;
+}
+.tulisan.bottom22{
+  font: 12.4px arial;
+  float: right;
+  margin-right: 70px;
+  font: #213b64;
+  margin-top: -28.5px;
+}
+.tulisan.bottom31{
+  font: 12.4px arial;
+  font-weight: bold;
+  float: right;
+  margin-right: 86px;
+  font: #213b64;
+}
+.tulisan.bottom32{
+  font: 12.4px arial;
+  float: right;
+  margin-right: 70px;
+  font: #213b64;
+  margin-top: -28.5px;
+}
+.lingkar img{
+  width: 40px;
+}
+
+.tangan-kiri{
+  margin-left: 93px;
+  background-color: #f47522;
+  border-radius: 30px;
+  padding: 2px;
+  
+}
+.lingkar-tengah{
+  height: 42px;
+  width: 267px;
+  float: left;
+  line-height: 42px;
+  margin-top: 30px;
+}
+
+
+.tangan-tengah{
+  margin-left: 70px;
+  background-color: #f47522;
+  border-radius: 30px;
+  padding: 2px;
+}
+
+.lingkar-kanan{
+  height: 42px;
+  width: 269px;
+  border-left: 1px #dbdbdb solid;
+  float: right;
+  line-height: 42px;
+  margin-top: 30px;
+}
+
+.tangan-kanan{
+  width: 40px;
+  margin-left: 58px;
+  background-color: #f47522;
+  border-radius: 30px;
+  padding: 2px;
+}
+
+
+/* FOOTER HERO 1 END */
+
+/* HERO 2 */
+.hero2{
+  height: 600px;
+  width: 1233px;
+  float: left;
+  box-sizing: border-box;
+}
+
+.about-hero2{
+  width: 1233px;
+  height: 110px;
+}
+.hero2 .about-2{
+  font: 56px arial;
+  font-weight: bold;
+  margin-left: 501px;
+  margin-top: 0px;
+}
+
+.about-2 span{
+  color: #f47522;
+}
+
+.bggambar2{
+  width: 1233px;
+  height: 483px;
+  background-image: url(img/bg-people@2x.png);
+  opacity: 100%;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+.gambar2{
+  width: 1233px;
+  height: 483px;
+  background-color: #19345e;
+  opacity: 80%;
+}
+
+.teks2{
+  width: 1233px;
+  height: 483px;
+  position: relative;
+  top: -482px;
+  color: #fff;
+  margin-left: 30px;
+}
+
+.alterra2{
+  font: 55px arial;
+  font-weight: bold;
+  margin-top: 145px;
+  margin-left: 291px;
+}
+
+.paragrafalta{
+  width: 730px;
+  height: 111px;
+  margin-left: 229px;
+  margin-top: -30px;
+  box-sizing: border-box;
+}
+
+.paragrafalta p{
+  text-align: center;
+  font: normal normal 18px/24px arial;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+}
+
+/* HERO 2 END */
+
+/* HERO 3 */
+.hero3{
+  height: 684px;
+  width: 1233px;
+  float: left;
+  padding: 60px 165px 60px 165px;
+  box-sizing: border-box;
+}
+
+.meet{
+  font: 55px arial;
+  font-weight: bold;
+  margin-top: 0px;
+  text-align: center;
+}
+
+.meet span{
+  color: #f47522;
+}
+
+.hero3 p {
+  font: 17px arial;
+  font-weight: bold;
+  text-align: center;
+  margin-top: -52px;
+}
+
+/* Foto Kiri */
+.foto-kiri{
+  height: 350px;
+  width: 301px;
+  box-sizing: border-box;
+  float: left;
+  margin-top: 20px;
+}
+.fotokiri{
+  width: 225px;
+  margin-left: 15px;
+}
+
+.border1{
+  width: 205px;
+  height: 245px;
+  border: #f47522 10px solid;
+  position: relative;
+  margin-top: -255px;
+}
+
+.foto-kiri h3{
+  font: 20px arial;
+  font-weight: 700;
+  text-align: center;
+  margin-left: -50px;
+  color: #f47522;
+}
+.foto-kiri h4{
+  font: 15px arial;
+  font-weight: 500;
+  text-align: center;
+  margin-left: -50px;
+  color: #19345e;
+  margin-top: -17px;
+}
+
+/* Foto Tengah */
+.foto-tengah{
+  height: 377px;
+  width: 299px;
+  box-sizing: border-box;
+  float: left;
+}
+.fototengah{
+  width: 225px;
+  margin-left: 15px;
+}
+
+.border2{
+  width: 205px;
+  height: 245px;
+  border: #19345e 10px solid;
+  position: relative;
+  margin-top: -255px;
+}
+
+.foto-tengah h3{
+  font: 20px arial;
+  font-weight: 700;
+  text-align: center;
+  margin-left: -50px;
+  color: #19345e;
+}
+.foto-tengah h4{
+  font: 15px arial;
+  font-weight: 500;
+  text-align: center;
+  margin-left: -50px;
+  color: #19345e;
+  margin-top: -17px;
+}
+
+/* Foto Kanan */
+.foto-kanan{
+  height: 350px;
+  width: 245px;
+  box-sizing: border-box;
+  float: right;
+  margin-top: 20px;
+}
+.fotokanan{
+  width: 225px;
+  margin-left: 15px;
+}
+
+.border1{
+  width: 205px;
+  height: 245px;
+  border: #f47522 10px solid;
+  position: relative;
+  margin-top: -255px;
+}
+
+.foto-kanan h3{
+  font: 20px arial;
+  font-weight: 700;
+  text-align: center;
+  color: #f47522;
+}
+.foto-kanan h4{
+  font: 15px arial;
+  font-weight: 500;
+  text-align: center;
+  color: #19345e;
+  margin-top: -17px;
+}
+
+.ceknow{
+  width: 120px;
+  height: 25px;
+  float: right;
+  box-sizing: border-box;
+  margin-right: 5px;
+  margin-top: 24px;
+}
+
+.ceknow a:hover{
+  color: #f47522;
+}
+
+.ceknow img:hover{
+  mask-image: url(img/arrow-hover.png);
+}
+
+.ceknow p{
+  font: 16px arial;
+  float: left;
+  margin-top: 2px;
+}
+.panah{
+  width: 20px;
+  float: right;
+}
+
+/* HERO 3 END */
+
+/* HERO 4 */
+.hero4{
+  height: 724px;
+  width: 1233px;
+  float: left;
+  padding-left: 160px;
+  box-sizing: border-box;
+}
+
+.latest{
+  font: 45px arial;
+  font-weight: bold;
+  margin-top: 0px;
+  text-align: center;
+  margin-right: 150px;
+}
+
+.latest span{
+  color: #f47522;
+}
+
+.galeri-kiri{
+  width: 285px;
+  height: 466px;
+  float: left;
+}
+
+.galerikiri{
+  width: 285px;
+  float: left;
+}
+
+.create{
+  font: 20px arial;
+  font-weight: 700;
+  color: #19345e;
+  margin-top: 240px;
+}
+
+.patah-bawah{
+  width: 285px;
+  height: 20px;
+  font-size: 14px;
+  font-weight: 100;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  margin-top: -4px;
+}
+
+.patah-bawah1{
+  float: left;
+  margin-top: -18.5px;
+}
+.patah-bawah2{
+  float: right;
+  margin-top: -18.5px;
+}
+
+
+.hero4 .c {
+  font: 14px arial;
+  text-align: left;
+  float: left;
+  margin-top: -5px;
+}
+
+.galeri-tengah{
+  width: 285px;
+  height: 466px;
+  float: left;
+  margin-left: 28.5px;
+}
+.galeri-kanan{
+  width: 285px;
+  height: 466px;
+  float: left;
+  margin-left: 28.5px;
+}
+
+.readmore{
+  width: 75px;
+  height: 22px;
+  box-sizing: border-box;
+  float: right;
+  text-align: center;
+  margin-top: 38px;
+  text-decoration: none;
+}
+.readmore p{
+  font: 14px arial;
+  font-style: normal;
+  color: #213b64;
+  margin-top: 1px;
+}
+
+.readmore p:hover{
+  color: #f47522;
+}
+/* HERO 3 END */
+/* FOOTER */
+
+.footerfot{
+  width: 1233px;
+  height: 141px;
+  background-color: #19345e;
+  box-sizing: border-box;
+  border: #19345e 2px dotted;
+  float: left;
+  margin-top: 74px;
+}
+
+.foot{
+  width: 923px;
+  height: 56.83px;
+  margin-top: 42.34px;
+  margin-left: 160px;
+  box-sizing: border-box;
+}
+
+.footalta{
+  width: 307.667px;
+  height: 56.83px;
+  box-sizing: border-box;
+  float: left;
+}
+.alta2x{
+  height: 56.83px;
+}
+.footsosmed{
+  width: 303.667px;
+  height: 56.83px;
+  box-sizing: border-box;
+  float: left;
+}
+
+.sosmed{
+  width: 132.15px;
+  height:38.83px;
+  margin: auto;
+  margin-top: 7px;
+}
+
+.tekssosmed{
+  font: 14px arial;
+  color: #fff;
+}
+
+
+.fb{
+  height: 20.17px;
+  float: left;
+}
+
+.twtr{
+  width: 16.57px;
+  float: left;
+  margin-left: 18.78px;
+  margin-top: 5px;
+}
+
+.ig{
+  width: 20.7px;
+  margin-left: 14.68px;
+  float: left;
+}
+
+.in{
+  width: 19.25px;
+  margin-left: 17px;
+  float: right;
+
+}
+.footcopy{
+  width: 307.667px;
+  height: 56.83px;
+  box-sizing: border-box;
+  float: right;
+}
+
+.copyright{
+  font: 14px arial;
+  color: #fff;
+  margin-top: 19.61px;
+  position: relative;
+  float: right;
+}
